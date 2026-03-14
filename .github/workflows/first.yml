@@ -1,0 +1,8 @@
+Name: Thowhith-pipeline
+on: workflow-dispatch
+jobs:
+     Thowhith-job
+     runs-on: ubuntu-latest
+     steps:
+           -name: print our name
+            run: echo" Mohamed Thowhith"
