@@ -8,7 +8,6 @@ jobs:
     steps:
      - name: print my name
        run: echo "Mohamed Thowhith"
-
      - name: install python
        - uses: actions/setup-python@v6
   with:
