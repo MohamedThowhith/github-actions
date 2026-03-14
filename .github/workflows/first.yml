@@ -1,7 +1,7 @@
 Name: Thowhith-pipeline
 on: workflow_dispatch
 jobs:
-Thowhith-job
+Thowhith-job:
 runs-on: ubuntu-latest
 steps:
 -name: print our name
