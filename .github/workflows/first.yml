@@ -8,3 +8,10 @@ jobs:
     steps:
      - name: print my name
        run: echo "Mohamed Thowhith"
+
+     - name: install python
+       - uses: actions/setup-python@v6
+  with:
+    python-version: '3.13'
+     - name: check python version
+       run: python --version
