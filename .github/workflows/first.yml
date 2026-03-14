@@ -1,5 +1,5 @@
 Name: Thowhith-pipeline
-on: workflow-dispatch
+on: workflow_dispatch
 jobs:
      Thowhith-job
      runs-on: ubuntu-latest
